@@ -1,0 +1,84 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* First Section */
+
+.section1{
+    width: 100%;
+    background-image: url('/images/img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+/* Logo and text  */
+.logoText{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rocalogo{
+    width: 119px;
+    height: 63px;
+}
+.aboutme01{
+    width: 227px;
+    height: 221px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 158px;
+    font-weight: bolder;
+    position: relative;
+    color: rgba(0, 0, 0, 0.194);
+}
+.abme{
+    font-size: 43px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #373737;
+}
+.nameSocials{
+    width: 425px;
+}
+.hi{
+    font-size: 49px;
+    
+}
+.namesurname{
+    font-size: 71px;
+    font-weight: bold;
+}
+
+.prof{
+    font-size: 23px;
+}
+.mySocials img{
+    width: 40px;
+}
+.mySocials{
+    margin-top: 20px;
+}
+.div1s3{
+    margin-top: 181px;
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    
+}
+.div1s2{
+    margin-top: 150px;
+    width: 77%;
+    display: flex;
+    justify-content: right;
+}
+.satisfied{
+    margin-bottom: 156px;
+}

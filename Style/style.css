@@ -7,7 +7,7 @@
 
 .section1{
     width: 100%;
-    background-image: url('./images/img1.png');
+    background-image: url('/images/img1.png');
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 1s;

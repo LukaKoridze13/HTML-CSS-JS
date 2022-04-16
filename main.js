@@ -13,3 +13,6 @@ setInterval(function(){
     index++;
     document.querySelector('.section1').style.backgroundImage=`url('${backgroundImages[index]}')`
 },5000)
+
+
+// Second Section

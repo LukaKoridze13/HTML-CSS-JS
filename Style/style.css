@@ -81,6 +81,212 @@
 .satisfied{
     margin-bottom: 156px;
 }
-
+@media (max-width:1527px) {
+    .div1s2{
+        width: 95%;
+    }
+    .section1{
+        
+        background-size: 80%;
+        background-position-y:center ;
+        background-color: #e2e2de ;
+    }
+}
+@media (max-width:855px) {
+    .div1s2{
+        width: 100%;
+        justify-content: center;
+    }
+    #section1{
+        
+        background-size: 80%;
+        background-position-y:center ;
+        background-color: #e2e2de ;
+        background-image: none;
+        
+    }
+}
 
 /* Second Section */
+.section2{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.div2s1{
+ width: 334px;
+ height: 500px;
+ 
+}
+.div2s2{
+    width: 430px;
+    height: 603px;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.div2s3{
+    width: 334px;
+    height: 500px;
+    
+}
+.louie{
+    width: 100%;
+}
+.lukaK{
+    width: 100%;
+    text-align: right;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.yellow{
+    width: 100%;
+    text-align: right;
+    color:#DAAE19;
+    font-size: 1.25em;
+}
+.lorem1{
+    width: 100%;
+    font-size: 1em;
+    color: #555555;
+    text-align: right;
+    margin-top: 40px;
+}
+.hireMe{
+    width: 40%;
+    height: 10%;
+    margin-top: 100px;
+    margin-left: 60%;
+    background-color: #E93656;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.percText{
+    font-size: 2em;
+    font-weight: bold;
+}
+span{
+    color: #E93656;
+}
+.div2s3 div{
+    width: 100%;
+    height: 10px;
+    
+    margin-top: 20px;
+}
+
+.pinkdiv1,.pinkdiv2,.pinkdiv3,.pinkdiv4{
+    width: 0%;
+    height: 100%;
+    background-color: #E93656;
+    
+}
+.pinkdiv11{
+    animation: fill1 1s linear;
+    animation-fill-mode: forwards;
+}
+.pinkdiv22{
+    animation: fill2 1s linear;
+    animation-fill-mode: forwards;
+}
+.pinkdiv33{
+    animation: fill3 1s linear;
+    animation-fill-mode: forwards;
+}
+.pinkdiv44{
+    animation: fill4 1s linear;
+    animation-fill-mode: forwards;
+}
+.percText1{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+@keyframes fill1 {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 16%;
+    }
+    50% {
+        width: 30%;
+    }
+    75% {
+        width: 50%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes fill2 {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 10%;
+    }
+    50% {
+        width: 20%;
+    }
+    75% {
+        width: 30%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+@keyframes fill3 {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 16%;
+    }
+    50% {
+        width: 30%;
+    }
+    75% {
+        width: 50%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes fill4 {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 6%;
+    }
+    50% {
+        width: 12%;
+    }
+    75% {
+        width: 16%;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+
+@media (max-width:1251px) {
+    .div2s1{
+        width: 25%;
+        
+       }
+    .div2s2{
+        width: 30%;
+    }
+    .div2s3{
+        width: 25%;
+    }
+}

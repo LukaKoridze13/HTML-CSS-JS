@@ -168,7 +168,7 @@
     cursor: pointer;
 }
 .percText{
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bold;
 }
 span{
@@ -204,7 +204,7 @@ span{
     animation-fill-mode: forwards;
 }
 .percText1{
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: bold;
     margin-top: 30px;
 }

@@ -119,3 +119,34 @@ for(let i=0;i<8;i++){
     })
 
 }
+
+// Fifth Section
+let but1=document.querySelector('.but1')
+let but2=document.querySelector('.but2')
+let but3=document.querySelector('.but3')
+but1.addEventListener('click',function(){
+    document.querySelector('.sec5div1').style.display='flex'
+    document.querySelector('.sec5div2').style.display='none'
+    document.querySelector('.sec5div3').style.display='none'
+    but1.classList.add('pink')
+    but3.classList.remove('pink')
+    but2.classList.remove('pink')
+})
+
+but2.addEventListener('click',function(){
+    document.querySelector('.sec5div2').style.display='flex'
+    document.querySelector('.sec5div1').style.display='none'
+    document.querySelector('.sec5div3').style.display='none'
+    but1.classList.remove('pink')
+    but3.classList.remove('pink')
+    but2.classList.add('pink')
+})
+
+but3.addEventListener('click',function(){
+    document.querySelector('.sec5div3').style.display='flex'
+    document.querySelector('.sec5div1').style.display='none'
+    document.querySelector('.sec5div2').style.display='none'
+    but1.classList.remove('pink')
+    but2.classList.remove('pink')
+    but3.classList.add('pink')
+})

@@ -379,3 +379,91 @@ span{
     align-items: center;
     width: 100%;
 }
+
+/* Fifth Section */
+.section5{
+    background-image: url('/imagesBox/Rectangle\ 13\ copy.png');
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec5div1{
+    display: flex;
+    width: 935px;
+    height: 170px;
+    align-items: center;
+    justify-content:space-between;
+}
+.sec5div2{
+    display: none;
+    width: 935px;
+    height: 170px;
+    align-items: center;
+    justify-content:space-between;
+}
+.sec5div3{
+    display: none;
+    width: 935px;
+    height: 170px;
+    align-items: center;
+    justify-content:space-between;
+}
+.smallred{
+    margin-top: 10px;
+    color: #E93656;
+    font-size: 1vw;
+}
+.saxeli12{
+    margin-top: 5px;
+    color: white;
+    font-size: 2vw;
+}
+.recomendation{
+    width: 60%;
+    color: white;
+}
+.lastpart{
+    width: 240px;
+    margin-left: 20px;
+}
+.circle{
+    width: 130px;
+    height: 130px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.sec5div5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.sec5div5 button{
+    margin: 10px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+.but1:hover{
+ background-color: #E93656;
+}
+.but2:hover{
+    background-color: #E93656;
+}
+.but3:hover{
+    background-color: #E93656;
+}
+.pink{
+    background-color: #E93656;
+}

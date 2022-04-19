@@ -150,3 +150,58 @@ but3.addEventListener('click',function(){
     but2.classList.remove('pink')
     but3.classList.add('pink')
 })
+
+// Sixth Section
+let backImgs=[
+    './images/po1.png',
+    './images/po2.png',
+    './images/po3.png',
+    './images/po4.png',
+    './images/po5.png',
+    './images/template.png'
+]
+for(let i=0;i<6;i++){
+    let div=document.querySelector(`.epic${i+1}`)
+    div.style.backgroundImage=`url('${backImgs[i]}')`
+    
+}
+
+
+for(let i=1;i<7;i++){
+    let clickable=document.querySelector(`.num${i+1}`)
+    let epic1=document.querySelector(`.epic${i}`)
+    let epic2=document.querySelector(`.epic${i}${i}`)
+    clickable.addEventListener('click',function(){
+        for(let k=1;k<8;k++){
+            document.querySelector(`.num${k}`).classList.remove('pink1')
+        }
+        clickable.classList.toggle('pink1')
+        epic1.style.display='none'
+        epic2.style.display='flex'
+        for(let p=1;p<7;p++){
+            if(p==i){
+                console.log(p)
+            }else{
+                document.querySelector(`.epic${p}`).style.display='block'
+                document.querySelector(`.epic${p}${p}`).style.display='none'
+
+            }
+        }
+    })
+
+}
+let zuzu=document.querySelector('.num1')
+zuzu.addEventListener('click',function(){
+    for(let k=1;k<8;k++){
+        document.querySelector(`.num${k}`).classList.remove('pink1')
+    }
+    document.querySelector(`.num1`).classList.toggle('pink1')
+    for(let p=1;p<7;p++){
+        document.querySelector(`.epic${p}`).style.display='block'
+        document.querySelector(`.epic${p}${p}`).style.display='none'
+
+    }
+})
+
+
+

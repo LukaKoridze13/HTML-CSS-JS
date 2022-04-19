@@ -418,7 +418,7 @@ span{
 .saxeli12{
     margin-top: 5px;
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .recomendation{
     width: 60%;
@@ -466,4 +466,229 @@ span{
 }
 .pink{
     background-color: #E93656;
+}
+
+/* Sixth Section */
+.section6{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: #15263E;
+    width: 15%;
+    height: 400px;
+    
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+li{
+ font-size: 1.5vw;
+ margin: 13px;
+ color: white;
+}
+li:hover{
+    color: #E93656;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.photosdiv{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    height: 700px;
+    
+}
+.t1{
+    width: 33%;
+    height: 50%;
+}
+.t2{
+    width: 33%;
+    height: 50%;
+}
+.t3{
+    width: 33%;
+    height: 50%;
+}
+.t4{
+    width: 33%;
+    height: 50%;
+}
+.t5{
+    width: 33%;
+    height: 50%;
+}
+.t6{
+    width: 33%;
+    height: 50%;
+}
+.epic1{
+    width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.epic2{
+    width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.epic3{
+    width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.epic4{
+    width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.epic5{
+    width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.epic6{
+    width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ago{
+    font-size: 1vw;
+    margin-top: 10px;
+}
+.li11{
+    font-size: 2vw;
+    margin-top: 30px;
+}
+.epic11{
+    display: none;
+    background-color: #373737;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.epic22{
+    display: none;
+    background-color: #373737;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.epic33{
+    display: none;
+    background-color: #373737;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.epic44{
+    display: none;
+    background-color: #373737;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.epic55{
+    display: none;
+    background-color: #373737;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.epic66{
+    display: none;
+    background-color: #373737;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.pink1{
+    color: #E93656;
+}
+.t1:hover .epic1{
+    display: none;
+}
+.t1:hover .epic11{
+    display: flex;
+    
+}
+.t2:hover .epic2{
+    display: none;
+}
+.t2:hover .epic22{
+    display: flex;
+    
+}
+.t3:hover .epic3{
+    display: none;
+}
+.t3:hover .epic33{
+    display: flex;
+    
+}
+.t4:hover .epic4{
+    display: none;
+}
+.t4:hover .epic44{
+    display: flex;
+    
+}
+.t5:hover .epic5{
+    display: none;
+}
+.t5:hover .epic55{
+    display: flex;
+    
+}
+.t6:hover .epic6{
+    display: none;
+}
+.t6:hover .epic66{
+    display: flex;
+    
 }

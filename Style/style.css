@@ -655,3 +655,124 @@ li:hover{
     color: #E93656;
 }
 
+
+/* Seventh Section */
+.section7{
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+.sec7div1{
+    width: 90%;
+    height: 590px;
+    
+    display: flex;
+    margin-top: 100px;
+    margin-left: 5%;
+    
+}
+.sec7div2{
+    width: 90%;
+    height: 590px;
+    
+    display: flex;
+    
+}
+.sec7div3{
+    width: 90%;
+    height: 590px;
+    
+    display: flex;
+    margin-left:5%;
+    
+}
+.sec7div2 .righto{
+    background-color: #FAFAFA;
+}
+.latArt{
+    font-size: 4.5vw;
+}
+.lefto{
+    width: 45%;
+    height: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+.txt{
+    font-size: 1vw;
+    text-align: left;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 40px;
+}
+.btxt{
+    font-size: 2vw;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.pw{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+.mido{
+    width: 10%;
+    height: 100%;
+    background-color:#15263E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.vertical{
+    color: #E93656;
+    transform: rotate(-90deg);
+    font-size: 1.5vw;
+}
+
+.righto{
+    width: 45%;
+    height: 100%;
+}
+.pers{
+    width: 100%;
+    height: 100%;
+}
+
+/* Eight section */
+.section8{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.louieTeam{
+    margin-top: 150px;
+    font-size: 3vw;
+}
+.flexbox{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: #E93656 3px solid;
+    background-color: #E93656;
+    font-weight: bold;
+    text-align: center;
+}

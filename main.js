@@ -235,5 +235,40 @@ zuzu.addEventListener('click',function(){
     }
 })
 
+// Seventh Section
 
+// Eighth Section
+let ko=[
+    "./images/111-removebg-preview.png",
+    "./images/222-removebg-preview.png",
+    "./images/333-removebg-preview.png",
+    "./images/222-removebg-preview.png",
+    "./images/111-removebg-preview.png"
+]
+let flexbox=document.querySelector('.flexbox')
+for(let i=0;i<5;i++){
+    let box=document.createElement('div')
+    box.style.width='13%'
+    box.style.height='65%'
+    flexbox.appendChild(box)
+    let img=document.createElement('img')
+    img.setAttribute('src',`${ko[i]}`)
+    img.style.width='80%'
+    img.style.height='80%'
+    box.classList.add('flex')
+    box.appendChild(img)
+    box.addEventListener('mouseover',function(){
+        box.innerHTML=`Client ${i+1} <br> <br> Lorm ipm dolr amt consect
+        mag maiores.Ipsa dolor sit
+        magnam maores.`
+        img.style.display='none'
+        box.style.borderRadius='5px'
+    })
+    box.addEventListener('mouseout',function(){
+        box.innerHTML=''
+        box.appendChild(img)
+        img.style.display='block'
+        box.style.borderRadius='50%'
+    })
+}
 

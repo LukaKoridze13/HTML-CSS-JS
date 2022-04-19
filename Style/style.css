@@ -357,6 +357,7 @@ span{
 }
 .infodiv:hover div{
     background-color: #E93656;
+    border: 2px #E93656 solid;
 }
 .infodiv:hover p{
     color: #E93656;
@@ -457,12 +458,15 @@ span{
 }
 .but1:hover{
  background-color: #E93656;
+ border: none;
 }
 .but2:hover{
     background-color: #E93656;
+    border: none;
 }
 .but3:hover{
     background-color: #E93656;
+    border: none;
 }
 .pink{
     background-color: #E93656;
@@ -650,45 +654,4 @@ li:hover{
 .pink1{
     color: #E93656;
 }
-.t1:hover .epic1{
-    display: none;
-}
-.t1:hover .epic11{
-    display: flex;
-    
-}
-.t2:hover .epic2{
-    display: none;
-}
-.t2:hover .epic22{
-    display: flex;
-    
-}
-.t3:hover .epic3{
-    display: none;
-}
-.t3:hover .epic33{
-    display: flex;
-    
-}
-.t4:hover .epic4{
-    display: none;
-}
-.t4:hover .epic44{
-    display: flex;
-    
-}
-.t5:hover .epic5{
-    display: none;
-}
-.t5:hover .epic55{
-    display: flex;
-    
-}
-.t6:hover .epic6{
-    display: none;
-}
-.t6:hover .epic66{
-    display: flex;
-    
-}
+

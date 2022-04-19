@@ -28,7 +28,6 @@ let firstPr2=document.querySelector('.pinkdiv2')
 let firstPr3=document.querySelector('.pinkdiv3')
 let firstPr4=document.querySelector('.pinkdiv4')
 document.addEventListener('scroll',function(){
-    console.log(window.scrollY)
     if(window.scrollY>245){
         firstPr1.classList.add('pinkdiv11')
         firstPr2.classList.add('pinkdiv22')
@@ -171,6 +170,39 @@ for(let i=1;i<7;i++){
     let clickable=document.querySelector(`.num${i+1}`)
     let epic1=document.querySelector(`.epic${i}`)
     let epic2=document.querySelector(`.epic${i}${i}`)
+    let po=document.querySelector(`.t${i}`)
+    po.addEventListener('mouseover',function(){
+        document.querySelector(`.epic${i}`).style.display='none'
+        document.querySelector(`.epic${i}${i}`).style.display='flex'
+        for(let o=1;o<7;o++){
+            document.querySelector(`.num${o}`).classList.remove('pink1')
+        }
+        for(let p=1;p<7;p++){
+            if(p==i){
+                
+            }else{
+                document.querySelector(`.epic${p}`).style.display='block'
+                document.querySelector(`.epic${p}${p}`).style.display='none'
+
+            }
+        }
+    })
+    po.addEventListener('mouseout',function(){
+        document.querySelector(`.epic${i}`).style.display='block'
+        document.querySelector(`.epic${i}${i}`).style.display='none'
+        for(let o=1;o<7;o++){
+            document.querySelector(`.num${o}`).classList.remove('pink1')
+        }
+        for(let p=1;p<7;p++){
+            if(p==i){
+                
+            }else{
+                document.querySelector(`.epic${p}`).style.display='block'
+                document.querySelector(`.epic${p}${p}`).style.display='none'
+
+            }
+        }
+    })
     clickable.addEventListener('click',function(){
         for(let k=1;k<8;k++){
             document.querySelector(`.num${k}`).classList.remove('pink1')
@@ -180,7 +212,7 @@ for(let i=1;i<7;i++){
         epic2.style.display='flex'
         for(let p=1;p<7;p++){
             if(p==i){
-                console.log(p)
+                
             }else{
                 document.querySelector(`.epic${p}`).style.display='block'
                 document.querySelector(`.epic${p}${p}`).style.display='none'

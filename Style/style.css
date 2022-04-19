@@ -188,19 +188,19 @@ span{
     
 }
 .pinkdiv11{
-    animation: fill1 1s linear;
+    animation: fill1 1.5s linear;
     animation-fill-mode: forwards;
 }
 .pinkdiv22{
-    animation: fill2 1s linear;
+    animation: fill2 1.5s linear;
     animation-fill-mode: forwards;
 }
 .pinkdiv33{
-    animation: fill3 1s linear;
+    animation: fill3 1.5s linear;
     animation-fill-mode: forwards;
 }
 .pinkdiv44{
-    animation: fill4 1s linear;
+    animation: fill4 1.5s linear;
     animation-fill-mode: forwards;
 }
 .percText1{
@@ -289,4 +289,93 @@ span{
     .div2s3{
         width: 25%;
     }
+}
+
+
+#soccdivs{
+    display: flex;
+    width: 220px;
+    height: 60px;
+    align-items: center;
+
+}
+.smallimg1{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+#hoverblue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgba(187, 232, 193, 0.353);
+    border-radius: 50%;
+    
+    
+}
+#hoverblue:hover{
+    background-color: rgba(0, 0, 255, 0.353);
+    border-radius: 50%;
+    
+}
+
+/* Third Section */
+.section3{
+    height: 210px;
+    background-color: #131A36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section3 div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.info{
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.imgdiv{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border: #e2e2de 2px dashed;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infodiv:hover div{
+    background-color: #E93656;
+}
+.infodiv:hover p{
+    color: #E93656;
+}
+
+/* Fourth Section */
+.box{
+    width: 1170px;
+    height: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

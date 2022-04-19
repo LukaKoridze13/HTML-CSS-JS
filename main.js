@@ -36,3 +36,86 @@ document.addEventListener('scroll',function(){
         firstPr4.classList.add('pinkdiv44')
     }
 })
+
+
+// Third Section
+
+
+// Fourth Section
+let imagesBox=[
+    "./imagesBox/IMG1.png",
+    "./imagesBox/IMG2.png",
+    "./imagesBox/IMG3.png",
+    "./imagesBox/IMG8.png",
+    "./imagesBox/IMG4.png",
+    "./imagesBox/IMG5.png",
+    "./imagesBox/IMG6.png",
+    "./imagesBox/IMG7.png"
+
+]
+let textBox=[
+    'Graphics Design',
+    'Best Service',
+    'Responsive Design',
+    'Pixel Perfect',
+    'Unique Ideas',
+    'Design Analysis',
+    'Fully Managed',
+    'Helpful Support'
+]
+for(let i=0;i<8;i++){
+    let box=document.createElement('div')
+    document.querySelector('.box').appendChild(box)
+    box.style.border='2px #707070 solid'
+    box.style.width='285px'
+    box.style.height='360px'
+    box.style.backgroundColor='#FAFAFA'
+    box.style.display='flex'
+    box.style.flexDirection='column'
+    box.style.justifyContent='center'
+    box.style.alignItems='center'
+    let childImage=document.createElement('img')
+    box.appendChild(childImage)
+    childImage.setAttribute('src',`${imagesBox[i]}`)
+    let childText=document.createElement('p')
+    childText.innerHTML=textBox[i]
+    box.appendChild(childText)
+    childText.style.color='#15263E'
+    childText.style.fontWeight='bold'
+    childText.style.marginTop='20px'
+    let header=document.createElement('p')
+    let lorem=document.createElement('p')
+    let diver=document.createElement('div')
+    diver.style.display='flex'
+    diver.style.flexDirection='column'
+    diver.style.justifyContent='center'
+    diver.style.alignItems='center'
+    header.innerHTML=textBox[i]
+    header.style.color='white'
+    header.style.fontSize='1.5vw'
+    diver.appendChild(header)
+    lorem.innerHTML='Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora quod cupiditate consequatur, dolores repellendus repudiandae sit quas facere aliquid voluptatum deserunt dolorem architecto impedit nihil ipsum atque autem accusamus!'
+    lorem.style.color='white'
+    lorem.style.fontSize='0.9vw'
+    lorem.style.marginTop='20px'
+    lorem.style.width='80%'
+    diver.appendChild(lorem)
+    diver.style.width='80%'
+    box.appendChild(diver)
+    diver.style.display='none'
+    diver.style.width='100%'
+    box.addEventListener('mouseover',function(){
+        childImage.style.display='none'
+        childText.style.display='none'
+        diver.style.display='flex'
+        box.style.backgroundColor='#15263E'
+
+    })
+    box.addEventListener('mouseout',function(){
+        childImage.style.display='block'
+        childText.style.display='block'
+        diver.style.display='none'
+        box.style.backgroundColor='#FAFAFA'
+    })
+
+}

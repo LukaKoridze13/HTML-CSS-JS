@@ -158,18 +158,18 @@
 .lukaK{
     width: 100%;
     text-align: right;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     font-weight: bold;
 }
 .yellow{
     width: 100%;
     text-align: right;
     color:#DAAE19;
-    font-size: 1.25em;
+    font-size: 1.25vw;
 }
 .lorem1{
     width: 100%;
-    font-size: 1em;
+    font-size: 1vw;
     color: #555555;
     text-align: right;
     margin-top: 40px;
@@ -177,7 +177,7 @@
 .hireMe{
     width: 40%;
     height: 10%;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 60%;
     background-color: #E93656;
     border: none;
@@ -342,11 +342,107 @@ span{
     
 }
 
+@media (max-width:1080px) {
+    .div2s3{
+        width: 20%;
+    }
+    #soccdivs{
+        width: 100%;
+        max-width: 205px;
+    }
+    
+    .smallimg1{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    #hoverblue{
+        width: 25%;
+    }
+    .div2s3{
+        min-width: 205px;
+        max-width: 273px;
+    }
+    .div2s1{
+        min-width: 245px;
+    }
+    .div2s3{
+        min-width: 291px;
+    }
+}
+@media (max-width:879px) {
+    .div2s3{
+        margin: 0;
+    }
+    .div2s1{
+        height: 300px;
+        margin: 0;
+    }
+    .div2s3{
+        margin: 0;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        max-width: 500px;
+    }
+    .div2s3 div{
+        margin: 0;
+    }
+    .louie{
+        height: 100%;
+    }
+    .div2s2{
+        height: 320px;
+    }
+    .section2{
+        height: 700px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .section3{
+        margin-top: 50px;
+    }
+    .lorem1{
+        font-size: 12px;
+        
+    }
+    .lukaK{
+        font-size: 30px;
+    }
+    .yellow{
+        font-size: 20px;
+    }
+    .hireMe{
+        width: 30%;
+    }
+    .louie{
+        min-width: 209px;
+    }
+    .div2s1{
+        min-width: 245px;
+    }
+}
+@media (max-width:570px) {
+    .section2{
+        max-width: 565px;
+    }
+}
+@media (max-width:465px) {
+    .section2{
+        height: auto;
+    }
+    .div2s1{
+        margin-top: 20px;
+    }
+}
+
 /* Third Section */
 .section3{
     height: 210px;
     background-color: #131A36;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }

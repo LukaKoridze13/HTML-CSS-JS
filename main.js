@@ -273,3 +273,10 @@ for(let i=0;i<5;i++){
     })
 }
 
+
+// Ninth Section
+document.querySelector('form').style.backgroundImage='url("./images1/image.png")'
+document.querySelector('.sm').addEventListener('click',function(e){
+    e.preventDefault()
+    alert('Thank you')
+})

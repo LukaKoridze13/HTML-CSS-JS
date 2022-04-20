@@ -662,27 +662,27 @@ li:hover{
     margin-top: 200px;
 }
 .sec7div1{
-    width: 90%;
-    height: 590px;
+    width: 100%;
+    height: 500px;
     
     display: flex;
     margin-top: 100px;
-    margin-left: 5%;
+    justify-content: end;
     
 }
 .sec7div2{
-    width: 90%;
-    height: 590px;
+    width: 100%;
+    height: 500px;
     
     display: flex;
     
 }
 .sec7div3{
-    width: 90%;
-    height: 590px;
+    width: 100%;
+    height: 500px;
     
     display: flex;
-    margin-left:5%;
+    justify-content: end;
     
 }
 .sec7div2 .righto{
@@ -692,7 +692,7 @@ li:hover{
     font-size: 4.5vw;
 }
 .lefto{
-    width: 45%;
+    width: 40%;
     height: 100%;
     background-color: #FAFAFA;
     display: flex;
@@ -736,7 +736,7 @@ li:hover{
 }
 
 .righto{
-    width: 45%;
+    width: 40%;
     height: 100%;
 }
 .pers{
@@ -774,4 +774,103 @@ li:hover{
     background-color: #E93656;
     font-weight: bold;
     text-align: center;
+}
+
+/* Ninth Section */
+.section9{
+    width: 100%;
+    margin-top: 200px;
+}
+form{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.CU{
+    font-weight: bold;
+    color: white;
+    font-size:2vw;
+}
+.lor1{
+    color: white;
+    font-size:1vw;
+    margin-top: 10px;
+}
+.field{
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.first3{
+    width: 27%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+.biginp{
+    display: flex;
+    width: 100%;
+    height: 110px;
+    margin-top: 30px;
+    text-align: start;
+    padding-left: 20px;
+    
+}
+input:focus{
+    outline: none;
+}
+.sm{
+    margin-top: 35px;
+    width: 12%;
+    height: 50px;
+    background: none;
+    border: 2px solid #E93656;
+    color: #E93656;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Tenth Section */
+.section10{
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.roca{
+    margin-top: 60px;
+}
+.orem{
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+.iconLinks img{
+    width: 40px;
+}
+.iconLinks{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+footer{
+    background-color: #171717;
+    width: 100%;
+    height: 82px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+}
+footer span{
+    color: white;
+    font-weight: bold;
 }

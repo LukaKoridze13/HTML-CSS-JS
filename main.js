@@ -276,7 +276,7 @@ for(let i=0;i<5;i++){
 
 // Ninth Section
 let form=document.querySelector('form')
-form.style.backgroundImage='url("./images1/image.png")'
+form.style.backgroundImage='url("image.png")'
 document.querySelector('.sm').addEventListener('click',function(e){
     e.preventDefault()
     alert('Thank you')

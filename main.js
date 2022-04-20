@@ -120,6 +120,7 @@ for(let i=0;i<8;i++){
 }
 
 // Fifth Section
+document.querySelector('.section5').style.backgroundImage='url("./imagesBox/prev.png")'
 let but1=document.querySelector('.but1')
 let but2=document.querySelector('.but2')
 let but3=document.querySelector('.but3')

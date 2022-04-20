@@ -383,7 +383,6 @@ span{
 
 /* Fifth Section */
 .section5{
-    background-image: url('./imagesBox/prev.png');
     width: 100%;
     height: 570px;
     display: flex;

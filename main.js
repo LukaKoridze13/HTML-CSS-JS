@@ -28,7 +28,7 @@ let firstPr2=document.querySelector('.pinkdiv2')
 let firstPr3=document.querySelector('.pinkdiv3')
 let firstPr4=document.querySelector('.pinkdiv4')
 document.addEventListener('scroll',function(){
-    if(window.scrollY>245){
+    if(window.scrollY>280){
         firstPr1.classList.add('pinkdiv11')
         firstPr2.classList.add('pinkdiv22')
         firstPr3.classList.add('pinkdiv33')

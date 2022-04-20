@@ -1,8 +1,4 @@
-.container{
-    max-width: 1920px;
-    width: 100%;
-    margin: 0 auto;
-}
+
 /* First Section */
 
 .section1{
@@ -104,6 +100,30 @@
         background-color: #e2e2de ;
         background-image: none;
         
+    }
+}
+@media (max-width:534px) {
+    .rocalogo{
+        width: 25%;
+    }
+    .aboutme01 {
+        width: 40%;
+        font-size: 20vw;
+    }
+    .abme{
+        font-size: 6vw;
+    }
+    .hi, .prof{
+        font-size: 6vw;
+    }
+    .namesurname{
+        font-size: 9vw;
+    }
+    .nameSocials{
+        width: 55%;
+    }
+    .satisfied{
+        width: 80%;
     }
 }
 
@@ -515,11 +535,11 @@ li:hover{
     
 }
 .photosdiv{
-    width: 900px;
+    width: 60vw ;
     display: flex;
     flex-wrap: wrap;
     margin-left: 80px;
-    height: 700px;
+    height: calc(60vw/900*750);
     
 }
 .t1{
@@ -547,37 +567,37 @@ li:hover{
     height: 50%;
 }
 .epic1{
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .epic2{
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .epic3{
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .epic4{
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .epic5{
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .epic6{
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -658,6 +678,7 @@ li:hover{
 /* Seventh Section */
 .section7{
     width: 100%;
+    max-width: 1920px;
     text-align: center;
     margin-top: 200px;
 }
@@ -702,6 +723,13 @@ li:hover{
     
     
 }
+.sec7div2 .righto{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+}
 .txt{
     font-size: 1vw;
     text-align: left;
@@ -719,6 +747,11 @@ li:hover{
     width: 100px;
     height: 100px;
     margin-left: 40px;
+}
+.pw1{
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
 }
 .mido{
     width: 10%;
@@ -874,4 +907,15 @@ footer{
 footer span{
     color: white;
     font-weight: bold;
+}
+
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section1,.section2,.section3,.section4,.section5,.section6,.section7,.section8,.section9,.section10,footer{
+    max-width: 1920px;
+    width: 100%;
 }

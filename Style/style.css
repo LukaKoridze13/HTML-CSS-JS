@@ -427,13 +427,32 @@ span{
     .section2{
         max-width: 565px;
     }
+    .louie{
+        min-width: 0px;
+    }
+    .div2s2{
+        height: auto;
+    }
 }
-@media (max-width:465px) {
+@media (max-width:464px) {
     .section2{
         height: auto;
     }
     .div2s1{
         margin-top: 20px;
+    }
+    .louie{
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        
+    }
+    .div2s2{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 300px;
+        max-width: 500px;
     }
 }
 
@@ -1015,3 +1034,8 @@ footer span{
     max-width: 1920px;
     width: 100%;
 }
+/* @media (max-width:565px) {
+    .sec5div5{
+        display: none;
+    }
+} */

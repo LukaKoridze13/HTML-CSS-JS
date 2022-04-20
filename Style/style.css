@@ -789,6 +789,7 @@ form{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url("../images1/image.png")
 }
 .CU{
     font-weight: bold;

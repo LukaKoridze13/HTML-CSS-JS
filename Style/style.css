@@ -77,55 +77,7 @@
 .satisfied{
     margin-bottom: 156px;
 }
-@media (max-width:1527px) {
-    .div1s2{
-        width: 95%;
-    }
-    .section1{
-        
-        background-size: 80%;
-        background-position-y:center ;
-        background-color: #e2e2de ;
-    }
-}
-@media (max-width:855px) {
-    .div1s2{
-        width: 100%;
-        justify-content: center;
-    }
-    #section1{
-        
-        background-size: 80%;
-        background-position-y:center ;
-        background-color: #e2e2de ;
-        background-image: none;
-        
-    }
-}
-@media (max-width:534px) {
-    .rocalogo{
-        width: 25%;
-    }
-    .aboutme01 {
-        width: 40%;
-        font-size: 20vw;
-    }
-    .abme{
-        font-size: 6vw;
-    }
-    .hi, .prof{
-        font-size: 6vw;
-    }
-    .namesurname{
-        font-size: 9vw;
-    }
-    .nameSocials{
-        width: 55%;
-    }
-    .satisfied{
-        width: 80%;
-    }
-}
+
 
 /* Second Section */
 .section2{
@@ -298,18 +250,6 @@ span{
 }
 
 
-@media (max-width:1251px) {
-    .div2s1{
-        width: 25%;
-        
-       }
-    .div2s2{
-        width: 30%;
-    }
-    .div2s3{
-        width: 25%;
-    }
-}
 
 
 #soccdivs{
@@ -342,119 +282,7 @@ span{
     
 }
 
-@media (max-width:1080px) {
-    .div2s3{
-        width: 20%;
-    }
-    #soccdivs{
-        width: 100%;
-        max-width: 205px;
-    }
-    
-    .smallimg1{
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
-    #hoverblue{
-        width: 25%;
-    }
-    .div2s3{
-        min-width: 205px;
-        max-width: 273px;
-    }
-    .div2s1{
-        min-width: 245px;
-    }
-    .div2s3{
-        min-width: 291px;
-    }
-}
-@media (max-width:879px) {
-    .div2s3{
-        margin: 0;
-    }
-    .div2s1{
-        height: 300px;
-        margin: 0;
-    }
-    .div2s3{
-        margin: 0;
-        height: 300px;
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-        max-width: 500px;
-    }
-    .div2s3 div{
-        margin: 0;
-    }
-    .louie{
-        height: 100%;
-    }
-    .div2s2{
-        height: 320px;
-    }
-    .section2{
-        height: 700px;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    .section3{
-        margin-top: 50px;
-    }
-    .lorem1{
-        font-size: 12px;
-        
-    }
-    .lukaK{
-        font-size: 30px;
-    }
-    .yellow{
-        font-size: 20px;
-    }
-    .hireMe{
-        width: 30%;
-    }
-    .louie{
-        min-width: 209px;
-    }
-    .div2s1{
-        min-width: 245px;
-    }
-}
-@media (max-width:570px) {
-    .section2{
-        max-width: 565px;
-    }
-    .louie{
-        min-width: 0px;
-    }
-    .div2s2{
-        height: auto;
-    }
-}
-@media (max-width:464px) {
-    .section2{
-        height: auto;
-    }
-    .div2s1{
-        margin-top: 20px;
-    }
-    .louie{
-        width: 100%;
-        height: 100%;
-        max-width: 500px;
-        
-    }
-    .div2s2{
-        margin-top: 20px;
-        margin-bottom: 30px;
-        width: 200px;
-        height: 300px;
-        max-width: 500px;
-    }
-}
+
 
 /* Third Section */
 .section3{
@@ -1039,3 +867,228 @@ footer span{
         display: none;
     }
 } */
+
+/* RESPONSIVE */
+@media (max-width:1251px) {
+    .div2s1{
+        width: 25%;
+        
+       }
+    .div2s2{
+        width: 30%;
+    }
+    .div2s3{
+        width: 25%;
+    }
+}
+
+@media (max-width:1080px) {
+    .div2s3{
+        width: 20%;
+    }
+    #soccdivs{
+        width: 100%;
+        max-width: 205px;
+    }
+    
+
+    .infodiv{
+        width: 279px;
+        margin: 0;
+    }
+    .smallimg1{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    #hoverblue{
+        width: 25%;
+    }
+    .div2s3{
+        min-width: 205px;
+        max-width: 273px;
+    }
+    .div2s1{
+        min-width: 245px;
+    }
+    .div2s3{
+        min-width: 291px;
+    }
+}
+@media (max-width:904px){
+    
+    .section3{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 210px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    .section3 div{
+        margin: 0;
+        width: 272px;
+    }
+    #respo{
+        width: 50px;
+        height: 50px;
+    }
+    .infodiv{
+        height: 84px;
+    }
+    #numerdiv{
+        margin-left: 10px;
+    }
+
+}
+@media (max-width:879px) {
+    .div2s3{
+        margin: 0;
+    }
+    .div2s1{
+        height: 300px;
+        margin: 0;
+    }
+    .div2s3{
+        margin: 0;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        max-width: 500px;
+    }
+    .div2s3 div{
+        margin: 0;
+    }
+    .louie{
+        height: 100%;
+    }
+    .div2s2{
+        height: 320px;
+    }
+    .section2{
+        height: 700px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .section3{
+        margin-top: 50px;
+    }
+    .lorem1{
+        font-size: 12px;
+        
+    }
+    .lukaK{
+        font-size: 30px;
+    }
+    .yellow{
+        font-size: 20px;
+    }
+    .hireMe{
+        width: 30%;
+    }
+    .louie{
+        min-width: 209px;
+    }
+    .div2s1{
+        min-width: 245px;
+    }
+}
+@media (max-width:813px) {
+    #address, #numerdiv{
+        width: 250px;
+        margin-left: 10px;
+    }
+}
+@media (max-width:570px) {
+    .section2{
+        max-width: 565px;
+    }
+    .louie{
+        min-width: 0px;
+    }
+    .div2s2{
+        height: auto;
+    }
+}
+@media (max-width:519px) {
+    .section3{
+        height: auto;
+    }
+    #numerdiv,#address,#lastinfo{
+        width: 279px;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+@media (max-width:464px) {
+    .section2{
+        height: auto;
+    }
+    .div2s1{
+        margin-top: 20px;
+    }
+    .louie{
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        
+    }
+    .div2s2{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 300px;
+        max-width: 500px;
+    }
+}
+@media (max-width:1527px) {
+    .div1s2{
+        width: 95%;
+    }
+    .section1{
+        
+        background-size: 80%;
+        background-position-y:center ;
+        background-color: #e2e2de ;
+    }
+}
+@media (max-width:855px) {
+    .div1s2{
+        width: 100%;
+        justify-content: center;
+    }
+    #section1{
+        
+        background-size: 80%;
+        background-position-y:center ;
+        background-color: #e2e2de ;
+        background-image: none;
+        
+    }
+}
+@media (max-width:534px) {
+    .rocalogo{
+        width: 25%;
+    }
+    .aboutme01 {
+        width: 40%;
+        font-size: 20vw;
+    }
+    .abme{
+        font-size: 6vw;
+    }
+    .hi, .prof{
+        font-size: 6vw;
+    }
+    .namesurname{
+        font-size: 9vw;
+    }
+    .nameSocials{
+        width: 55%;
+    }
+    .satisfied{
+        width: 80%;
+    }
+}

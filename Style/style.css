@@ -351,6 +351,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .sec5div1{
     display: flex;
@@ -381,7 +382,7 @@ span{
 .saxeli12{
     margin-top: 5px;
     color: white;
-    font-size: 1.5vw;
+    font-size: 30px;
 }
 .recomendation{
     width: 60%;
@@ -1117,5 +1118,72 @@ footer span{
     }
     .satisfied{
         width: 80%;
+    }
+}
+@media (max-width:1052px) {
+    .sec5div1{
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .sec5div3{
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .sec5div2{
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .section5{
+        height: auto;
+    }
+}
+@media (max-width:1029px) {
+    .sec5div1{
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .sec5div2{
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .sec5div3{
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .section5{
+        height: 255px;
+    }
+    .sec5div5{
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .smallred{
+        font-size: 15px;
+    }
+}
+@media (max-width:641px) {
+    .sec5div1{
+        flex-wrap:wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+    .sec5div2{
+        flex-wrap:wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+    .sec5div3{
+        flex-wrap:wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+    .section5{
+        height: 400px;
     }
 }

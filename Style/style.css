@@ -1251,3 +1251,62 @@ footer span{
         margin-top: 30px;
     }
 }
+@media (max-width:702px) {
+    .field{
+        justify-content: space-around;
+    }
+    .field input{
+        margin: 10px;
+    }
+}
+@media (max-width:666px) {
+    input {
+        font-size: 2vw;
+    }
+    .sm{
+        font-size: 2vw;
+    }
+}
+@media (max-width:945px) {
+    .sm{
+        font-size: 1.4vw;
+    }
+}
+@media (max-width:707px) {
+    .field {
+        width: 95%;
+    }
+    .first1,.first2, .first3{
+        height: calc(10vw);
+    }
+    .biginp{
+        height: calc(20vw);
+    }
+    .sm{
+        height: calc(6vw);
+    }
+    .section9{
+        height: 600px;
+    }
+    form{
+        height: 600px;
+    }
+}
+@media (max-width:419px) {
+    .section9{
+        height: 500px;
+    }
+    form{
+        height: 500px;
+    }
+}
+@media (max-width:1100px) {
+    .orem{
+        width: 80%;
+    }
+}
+@media (max-width:384px) {
+    .iconLinks{
+        width: 50% ;
+    }
+}

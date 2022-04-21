@@ -1215,3 +1215,17 @@ footer span{
         height: calc(90vw*750/900);
     }
 }
+@media (max-width:807px) {
+    .section7{
+        margin-top: 30px;
+    }
+}
+@media (max-width:1730px) {
+    .section7  div{
+        height: calc(90vw*0.3);
+    }
+    .pw, .pw1{
+        width: 20%;
+        height: 30%;
+    }
+}

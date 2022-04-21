@@ -1219,6 +1219,15 @@ footer span{
     .section7{
         margin-top: 30px;
     }
+    .section8{
+        margin-top:50px;
+    }
+    .louieTeam{
+        margin-top: 0;
+    }
+    .flexbox{
+        margin-top: 30px;
+    }
 }
 @media (max-width:1730px) {
     .section7  div{
@@ -1227,5 +1236,18 @@ footer span{
     .pw, .pw1{
         width: 20%;
         height: 30%;
+    }
+}
+@media (max-width:1400px) {
+    .flexbox{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+    }
+    .flexbox div{
+        margin: 5px;
+    }
+    .section9{
+        margin-top: 30px;
     }
 }

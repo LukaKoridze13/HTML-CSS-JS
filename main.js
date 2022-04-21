@@ -263,8 +263,8 @@ let ko=[
 let flexbox=document.querySelector('.flexbox')
 for(let i=0;i<5;i++){
     let box=document.createElement('div')
-    box.style.width='13%'
-    box.style.height='65%'
+    box.style.width='150px'
+    box.style.height='140px'
     flexbox.appendChild(box)
     let img=document.createElement('img')
     img.setAttribute('src',`${ko[i]}`)

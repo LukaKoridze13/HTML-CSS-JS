@@ -177,7 +177,7 @@ let backImgs=[
 for(let i=0;i<6;i++){
     let div=document.querySelector(`.epic${i+1}`)
     div.style.backgroundImage=`url('${backImgs[i]}')`
-    
+    div.classList.add('transition')
 }
 
 
@@ -186,6 +186,10 @@ for(let i=1;i<7;i++){
     let epic1=document.querySelector(`.epic${i}`)
     let epic2=document.querySelector(`.epic${i}${i}`)
     let po=document.querySelector(`.t${i}`)
+    clickable.classList.add('transition')
+    epic1.classList.add('transition')
+    epic2.classList.add('transition')
+    po.classList.add('transition')
     po.addEventListener('mouseover',function(){
         document.querySelector(`.epic${i}`).style.display='none'
         document.querySelector(`.epic${i}${i}`).style.display='flex'
@@ -201,6 +205,10 @@ for(let i=1;i<7;i++){
 
             }
         }
+        clickable.classList.add('transition')
+        epic1.classList.add('transition')
+        epic2.classList.add('transition')
+        po.classList.add('transition')
     })
     po.addEventListener('mouseout',function(){
         document.querySelector(`.epic${i}`).style.display='block'
@@ -217,6 +225,10 @@ for(let i=1;i<7;i++){
 
             }
         }
+        clickable.classList.add('transition')
+        epic1.classList.add('transition')
+        epic2.classList.add('transition')
+        po.classList.add('transition')
     })
     clickable.addEventListener('click',function(){
         for(let k=1;k<8;k++){
@@ -231,7 +243,10 @@ for(let i=1;i<7;i++){
             }else{
                 document.querySelector(`.epic${p}`).style.display='block'
                 document.querySelector(`.epic${p}${p}`).style.display='none'
-
+                clickable.classList.add('transition')
+                epic1.classList.add('transition')
+                epic2.classList.add('transition')
+                po.classList.add('transition')
             }
         }
     })
@@ -263,10 +278,12 @@ let ko=[
 let flexbox=document.querySelector('.flexbox')
 for(let i=0;i<5;i++){
     let box=document.createElement('div')
+    box.classList.add('transition')
     box.style.width='150px'
     box.style.height='140px'
     flexbox.appendChild(box)
     let img=document.createElement('img')
+    img.classList.add('transition')
     img.setAttribute('src',`${ko[i]}`)
     img.style.width='80%'
     img.style.height='80%'

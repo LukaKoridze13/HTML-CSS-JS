@@ -271,6 +271,7 @@ span{
     width: 60px;
     height: 50px;
     margin: 10px;
+    transition: all 1s linear;
     background-color: rgba(187, 232, 193, 0.353);
     border-radius: 50%;
     
@@ -317,6 +318,12 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.infodiv div{
+    transition: all 1s linear;
+}
+.infodiv p{
+    transition: all 1s linear;
 }
 .infodiv:hover div{
     background-color: #E93656;
@@ -419,9 +426,27 @@ span{
     border: none;
     border-radius: 6px;
 }
+.but1,.but2,.but3{
+    transition: all 1s linear;
+}
+.section6{
+    transition:all 1s linear;
+}
+#boxchild{
+    transition: all 1s linear;
+}
+.section5{
+    transition: all 1s linear;
+}
+.sec5div1,.sec5div2,.sec5div3{
+    transition: all 1s linear;
+}
 .but1:hover{
  background-color: #E93656;
  border: none;
+}
+.transition{
+    transition: all 1s linear;
 }
 .but2:hover{
     background-color: #E93656;

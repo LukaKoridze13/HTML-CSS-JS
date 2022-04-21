@@ -64,10 +64,24 @@ let textBox=[
 ]
 for(let i=0;i<8;i++){
     let box=document.createElement('div')
+    box.setAttribute('id','boxchild')
     document.querySelector('.box').appendChild(box)
     box.style.border='2px #707070 solid'
     box.style.width='285px'
     box.style.height='360px'
+    if(window.innerWidth<=1222){
+        box.style.width='22%'
+        box.style.height='45%'
+        box.style.margin='10px'
+    }
+    if(window.innerWidth<=842){
+        box.style.width='179px'
+        box.style.minWidth='179px'
+        box.style.height='219px'
+        box.style.minHeight='219px'
+        box.style.margin='10px'
+    }
+    
     box.style.backgroundColor='#FAFAFA'
     box.style.display='flex'
     box.style.flexDirection='column'
